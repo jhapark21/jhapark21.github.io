@@ -1,5 +1,15 @@
 h1 {
-	color: rgba(8,141,165,1);
+	color: black);
 	margin-left: 100px;
 	text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
