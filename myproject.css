@@ -13,23 +13,73 @@
 .navbar-style {
 	box-shadow: 0 5px 10px white;
 	text-transform: uppercase;
+	background-color: 595959;
+}
+
+.nav {
+	margin-top: 50px;
 }
 
 .icon-bar {
-	background: green;
+	background: white;
 }
 
 li a {
-	color: gray;
+	color: white;
+}
+
+.name {
+	padding-top: 50px;
 }
 
 .subtitle {
 	font-size: 52px;
-	margin: 20px 0;
-	color: white;
+	margin: 20px;
+	color: #0abab5;
 }
 
 a.btn {
 	border-radius: 20px;
 	width: 100px;
 }
+
+#projects {
+	background-color: F3F3F3
+}
+
+img.sch {
+	height: 70%;
+	width: 70%;
+}
+
+.sch:hover {
+	opacity: 0.3
+}
+
+a {
+  position: relative;
+}
+
+a span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+  padding: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+a:hover span {
+  display: block;
+}
+
+.sum {
+	padding-top: 15px;
+	font-family: bold;
+}
+

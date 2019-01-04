@@ -3,12 +3,13 @@
 		<title>Ji Hyeuk Park</title>
 		<link rel="stylesheet" type="text/css" href="myproject.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
-	<body>
+	<body id="page" class="index">
 		<header class="bar">
-		<nav class="navbar navbar-style">
+		<nav class="navbar navbar-style navbar-fixed-top">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
@@ -17,27 +18,117 @@
 			<div class="collapse navbar-collapse" id="menu">
 			
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="">Home</a></li>
-			<li><a href="">Skills</a></li>
-			<li><a href="">Projects</a></li>
-			<li><a href="">Portfolio</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="#page" class="page-scroll">Home</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<!-- <li><a href="">Portfolio</a></li> -->
+			<li><a href="#contact">Contact</a></li>
 			</ul>
+			</div>
 		</nav>	
 		<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
-				<h1>Ji Hyeuk Park</h1>
-				<p class="subtitle">Software Developer</p>
-				<a class="btn btn-primary" href="https://www.linkedin.com/in/ji-hyeuk-park-a2a80816b/" target="_blank">LinkedIn</a>
-				<a class="btn btn-primary" href="https://github.com/jhapark21" target="_blank">GitHub</a>
+				<h1 class="name">Ji Hyeuk Park</h1>
+				<p class="subtitle">Software Developer</p>				
 			</div>
 			<div class="col-sm-6">
 			</div>
 		</div>
 		</div>
-
 		</header>
+		
+		<!-- skills -->
+		<section id="skills">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<h1 style="padding-top: 40px;">SKILLS</h1>
+					<div class="col-md-2 col-md-offset-1 col-sm-12">
+						<div class="skill">
+							<h4>HTML & CSS</h4>
+							<img src="htmlcss.png" width="50%">							
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12">
+						<div class="skill">
+							<h4>JavaScript</h4>
+							<img src="js.png" width="50%">							
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12">
+						<div class="skill">
+							<h4>C# & .NET Framework</h4>
+							<img src="csnt.jpg" width="50%">							
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12">
+						<div class="skill">
+							<h4>Database & SQL</h4>
+							<img src="dbsql.png" width="50%">							
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12">
+						<div class="skill">
+							<h4>Version Control</h4>
+							<img src="git.png" width="50%">							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- projects -->
+		<section id="projects">
+			<div class="container">
+				<div class="row text-center">
+					<h1 style="padding-top: 40px;">PROJECTS</h1>
+					<div class="hover-text">
+						<a href="https://github.com/jhapark21/Tech-Academy-Projects/tree/master/ScheduleIT%20User%20Management">
+						<img class="sch" src="scheduleit.png"><span>ScheduleIt Codes</span>
+						</a>		
+					</div>	
+						<h3 class="sum">ScheduleIt</h3>
+						<p><i>ASP.NET MVC user management system with<br>a code first Entity Framework Database</i></p>
+					
+				</div>
+				
+			</div>
+		</section>
+		
+		<!-- contact -->
+		<section id="contact">
+			<div class="container">
+				<div class="row text-center">
+					<h1 style="padding-top: 40px;">CONTACT</h1>
+					<div class="addresses">
+						<dl class="dl dl-vertical">
+							<dt>E-mail:</dt>
+							<dd>
+								<a href="mailto:jhapark21@gmail.com">
+									<i class="fa fa-envelope"></i>  jhapark21@gmail.com
+								</a>
+							</dd>
+							<dt>LinkedIn:</dt>
+							<dd>
+								<a href="https://www.linkedin.com/in/ji-hyeuk-park-a2a80816b/" target="_blank">
+									<i class="fa fa-linkedin-square">  Ji Hyeuk Park</i>
+								</a>
+							</dd>
+							<dt>GitHub:</dt>
+							<dd>
+								<a href="https://github.com/jhapark21" target="_blank">
+									<i class="fa fa-github">  jhapark21</i>
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		
+		
 	</body>
 </html>
 
