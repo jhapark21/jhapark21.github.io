@@ -11,9 +11,9 @@
 }
 
 .navbar-style {
-	box-shadow: 0 5px 10px white;
+	box-shadow: 0 5px 10px #fa8100;
 	text-transform: uppercase;
-	background-color: 595959;
+	background-color: #524f4c;
 }
 
 .nav {
@@ -25,17 +25,19 @@
 }
 
 li a {
-	color: white;
+	color: #f2ebe4;
 }
 
 .name {
-	padding-top: 50px;
+	padding-top: 200px;
+	font-size: 55px;
+	color: #140f0f;
 }
 
-.subtitle {
-	font-size: 52px;
-	margin: 20px;
-	color: #0abab5;
+.job {
+	font-size: 45px;
+	
+	color: #140f0f;
 }
 
 a.btn {
@@ -43,8 +45,16 @@ a.btn {
 	width: 100px;
 }
 
+#skills {
+	background-color: #c1cdf7;
+}
+
 #projects {
-	background-color: F3F3F3
+	background-color: #e0a4a4;
+}
+
+#contact {
+	background-color: #b4eced;
 }
 
 img.sch {
@@ -79,7 +89,7 @@ a:hover span {
 }
 
 .sum {
-	padding-top: 15px;
-	font-family: bold;
+	padding-top: 10px;
+	
 }
 
