@@ -11,7 +11,7 @@
 }
 
 .navbar-style {
-	box-shadow: 0 5px 10px #fa8100;
+	box-shadow: 0 5px 10px ;
 	text-transform: uppercase;
 	background-color: #524f4c;
 }
@@ -46,7 +46,11 @@ a.btn {
 }
 
 #skills {
-	background-color: #c1cdf7;
+	background-color: #43E8DE;
+}
+#skills:h1 {
+	padding: 40px 0px 200px 0px;
+	
 }
 
 #projects {
